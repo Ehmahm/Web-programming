@@ -6,6 +6,17 @@ img {
     width: 200px; 
     float: right;
 }
+body {
+    background-image: url("big6.jpeg");
+    background-size: cover;
+    background-position: center center;
+    animation: parallax 10s ease-in-out infinite;
+}
+image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+  }
 h1 {
     text-align: center;
     color: #333;
